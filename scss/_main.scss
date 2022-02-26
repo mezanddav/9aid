@@ -134,3 +134,46 @@ img:not([src]) {
 .notif__wrp{
   padding: 25px 0;
 }
+
+.notif__title{
+  color: rgba(255, 177, 66, 1);
+  font-weight: $dffbold;
+  margin: 0 0 8px 0;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.notif__pulse{
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  margin: 0 10px 0 0;
+  height: 20px;
+  width: 20px;
+  transform: scale(1);
+  animation: pulse-black 2s infinite;
+
+  &.pulse--yellow{
+    background: rgba(255, 177, 66, 1);
+    box-shadow: 0 0 0 0 rgba(255, 177, 66, 1);
+    animation: pulse-yellow 2s infinite;
+  }
+}
+
+@keyframes pulse-yellow {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 177, 66, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(255, 177, 66, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 177, 66, 0);
+	}
+}

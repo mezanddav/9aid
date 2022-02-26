@@ -21,9 +21,20 @@
 		<div class="footer__content">This website is maintained by the community.</div>
 		<div class="footer__help">
 			<h2 class="footer__help-title">Would you like to help?</h2>
-			<div><a href="https://discord.gg/kVX8z86Y">Discord</a></div>
+			<div class="footer__help-menu"><?php
+
+				wp_nav_menu( array(
+					'theme_location' => 'footer-menu',
+					'menu_id'        => 'footer-menu',
+					'container'      => false
+				) );
+
+			?></div>
 		</div>
-		<div class="footer__ver"><?= date('Y') ?> ver. 0.0.12</div>
+		<div class="footer__ver fbx fbx-csb">
+			<div><?= date('Y') ?> ver. 0.0.12</div>
+			<div>Last updated 1 day ago</div>
+		</div>
 	</div>
 </footer>
 </div>

@@ -21,6 +21,10 @@ get_header();
 <div class="notif">
     <div class="ctn max">
         <div class="notif__wrp">
+            <div class="notif__title fbx fbx-c">
+                <div class="notif__pulse pulse--yellow"></div>
+                <div>Important</div>
+            </div>
             <div>Men aged 18-60 will be turned around by the Ukrainian military/border force due to the <a href="https://www.president.gov.ua/documents/692022-41413">general mobilization decree</a> signed by President Zelensky yesterday.</div>
         </div>
     </div>
