@@ -16,7 +16,9 @@
  */
 
 get_header();
+
 ?>
 <div class="ctn max"></div>
 <?php
+
 get_footer();

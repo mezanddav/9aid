@@ -30,9 +30,11 @@ do_action('eve_about');
 <header class="site-header header">
 	<div class="ctn max">
 		<div class="brand">
-			<a class="brand-uri" href="<?php echo get_site_url(); ?>"><img class="brand-img desktop" src="<?php echo get_template_directory_uri(); ?>/img/progresseve-logo.png" alt="<?php echo get_bloginfo('name'); ?>"><img class="brand-img mobile" src="<?php echo get_template_directory_uri(); ?>/img/progresseve-m-logo.png" alt="<?php echo get_bloginfo('name'); ?>"></a>
+			<a class="brand-uri" href="<?php echo get_site_url(); ?>">
+				<svg width="100" height="100"><use xlink:href="#9aid-logo"></use></svg>
+			</a>
 		</div>
-		<nav id="site-navigation" class="main-navigation">
+		<!-- <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span></span><span></span><span></span></button>
 			<?php
 			wp_nav_menu( array(
@@ -41,7 +43,7 @@ do_action('eve_about');
 				'container'      => false
 			) );
 			?>
-		</nav>
+		</nav> -->
 	</div>
 </header>
 

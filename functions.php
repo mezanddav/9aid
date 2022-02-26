@@ -251,7 +251,7 @@ add_action( 'wp_body_open', 'eve_gtm_noscript', 10 );
 // add_action( 'pre_get_posts', 'eve_cpt_change_sort_order'); // Change post order
 
 // Template actions
-// add_action( 'wp_footer', 'eve_theme_icons', 10 );
+add_action( 'wp_footer', 'eve_theme_icons', 10 );
 
 // Plugins
 // add_filter( 'wpcf7_load_js', '__return_false' );

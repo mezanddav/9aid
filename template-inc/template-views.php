@@ -321,9 +321,7 @@ if ( ! function_exists( 'eve_about_comment_in_html' ) ) :
 
 		echo $ignore_comment; ?><!--
 
-	Created in 🇬🇧 with ❤️ by www.progresseve.uk
-	
-	Get in touch: hello@progresseve.uk
+	Created in EU with ❤️ by 9GAG
 
 --><?php echo $ignore_comment;
 	}

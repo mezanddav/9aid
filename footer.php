@@ -13,7 +13,12 @@
 
 </div>
 <footer class="site-footer footer">
-	<div class="ctn max">Base theme by progresseve.uk</div>
+	<div class="ctn max">
+		<div class="footer__by fbx fbx-c">
+			<svg width="20" height="20"><use xlink:href="#9gag-logo"></use></svg>
+			<div>Created by 9GAG with ❤️</div>
+		</div>
+	</div>
 </footer>
 </div>
 <?php wp_footer(); ?>

@@ -10,16 +10,6 @@ $header__height: 34px;
     // @media (min-width: $screen-md-min){
     //   padding-top: 50px;
     // }
-
-    .ctn {
-        height: $header__height;
-        @include clearfix();
-    }
-
-    .brand {
-        height: inherit;
-        float: left;
-    }
 }
 
 // Brand
@@ -32,33 +22,12 @@ $header__height: 34px;
     display: block;
 }
 
-.brand-img {
-    width: auto;
-    height: ($header__height - 4);
-    max-width: none;
-
-    &.desktop {
-        display: none;
-
-        @media (min-width: $screen-md-min) {
-            display: block;
-        }
-    }
-
-    &.mobile {
-        display: block;
-
-        @media (min-width: $screen-md-min) {
-            display: none;
-        }
-    }
-}
+.brand-img {}
 
 // Navigation
 .main-navigation {
     font-size: 0;
     float: right;
-    height: inherit;
     @include clearfix();
 
     .menu {
