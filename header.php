@@ -20,7 +20,7 @@ do_action('eve_about');
 <link rel="dns-prefetch" href="//www.googletagmanager.com">
 <link rel="dns-prefetch" href="//ajax.googleapis.com">
 <?php wp_head(); ?>
-<meta name="theme-color" content="#0D494E">
+<meta name="theme-color" content="#2679D8">
 <link rel="icon" sizes="192x192" href="<?php echo get_template_directory_uri(); ?>/img/eve-highres.png?v=<?php echo eve_verison_control(); ?>">
 </head>
 <body <?php body_class(); ?>>
@@ -29,10 +29,12 @@ do_action('eve_about');
 
 <header class="site-header header">
 	<div class="ctn max">
-		<div class="brand">
-			<a class="brand-uri" href="<?php echo get_site_url(); ?>">
-				<svg width="100" height="100"><use xlink:href="#9aid-logo"></use></svg>
-			</a>
+		<div class="">
+			<div class="brand">
+				<a class="brand-uri" href="<?php echo get_site_url(); ?>">
+					<svg width="100" height="100"><use xlink:href="#9aid-logo"></use></svg>
+				</a>
+			</div>
 		</div>
 		<!-- <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span></span><span></span><span></span></button>

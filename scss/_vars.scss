@@ -8,15 +8,15 @@ $color__text: $color__dark;
 
 
 //== Fonts
-$dff: 'Montserrat', Arial, Helvetica, sans-serif;
-$dffregular: 400;
-$dffbold: 700;
+$dff: 'Helvetica', 'Arial', sans-serif;
+$dffregular: normal;
+$dffbold: bold;
 
 
 //== Other
 //** Usage: @include bg('foo.jpg') or @include plg_bg('foo.png')
 $wp_content__name: 'wp-content';
-$template__name: 'eve';
+$template__name: '9aid';
 $template__img_path: $wp_content__name + '/themes/' + $template__name + '/img/';
 $plugin__path: 'wp-content/plugins/';
 
