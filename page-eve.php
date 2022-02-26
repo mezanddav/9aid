@@ -18,6 +18,13 @@
 get_header();
 
 ?>
+<div class="notif">
+    <div class="ctn max">
+        <div class="notif__wrp">
+            <div>Men aged 18-60 will be turned around by the Ukrainian military/border force due to the <a href="https://www.president.gov.ua/documents/692022-41413">general mobilization decree</a> signed by President Zelensky yesterday.</div>
+        </div>
+    </div>
+</div>
 <div class="homp">
     <div class="ctn max">
         <h1 class="homp__title">Aggregating key information <div class="homp__title-sub">from Poland, Slovakia, Hungary and Romania</div></h1>

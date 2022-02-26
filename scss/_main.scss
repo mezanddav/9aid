@@ -124,3 +124,13 @@ img:not([src]) {
     width: 300px;
   }
 }
+
+// Notif
+.notif{
+  background: $color__dark;
+  color: #fff;
+}
+
+.notif__wrp{
+  padding: 25px 0;
+}
