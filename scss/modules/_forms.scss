@@ -31,3 +31,34 @@
     padding: 6px 12px;
   }
 }
+
+a{
+  color: $color__eve;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+  text-underline-offset: 0.1em;
+
+  &:hover{
+    color: #003078;
+  }
+
+  &:active {
+    color: #0b0c0c;
+  }
+
+  &:link,
+  &:active {
+    color: #0b0c0c;
+  }
+
+  &:focus {
+    outline: 3px solid transparent;
+    color: #0b0c0c;
+    background-color: #fd0;
+    box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+    text-decoration: none;
+  }
+}

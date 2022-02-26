@@ -52,23 +52,21 @@ strong {
 }
 
 h1 {
-    margin: 0 0 30px 0;
-    font-size: 26px;
+    font-size: 28px;
+    line-height: 1.25;
+    color: $color__text;
+    font-weight: $dffbold;
+    margin: 0px 0px 30px;
+    padding: 15px 0px 0px;
 }
 
 h2 {
-    margin: 0 0 25px 0;
     font-size: 24px;
-}
-
-h3 {
-    margin: 0 0 20px 0;
-    font-size: 22px;
-}
-
-h4 {
-    margin: 0 0 15px 0;
-    font-size: 20px;
+    line-height: 1.25;
+    color: $color__text;
+    font-weight: $dffbold;
+    margin: 0px 0px 30px;
+    padding: 15px 0px 0px;
 }
 
 ////////////////////
