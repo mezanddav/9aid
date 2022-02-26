@@ -150,8 +150,8 @@ function eve_scripts()
 		wp_enqueue_style( 'eve-style', get_stylesheet_uri() );
 	}
 	
-	wp_dequeue_style( 'wp-block-library' );
-	wp_deregister_style( 'wp-block-library' );
+	// wp_dequeue_style( 'wp-block-library' );
+	// wp_deregister_style( 'wp-block-library' );
 
 	wp_enqueue_script( 'jquery' );
 	add_action( 'wp_footer', 'progresseve_scripts', 1 );

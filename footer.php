@@ -14,6 +14,14 @@
 </div>
 <footer class="site-footer footer">
 	<div class="ctn max">
+		<div class="footer__brand">
+			<div class="brand">
+				<a class="brand-uri" href="<?php echo get_site_url(); ?>">
+					<svg width="90" height="90"><use xlink:href="#9aid-logo-light"></use></svg>
+				</a>
+			</div>
+			<div class="footer__brand-motto">Providing information and fighting fake news.</div>
+		</div>
 		<div class="footer__by fbx fbx-c">
 			<svg width="20" height="20"><use xlink:href="#9gag-logo"></use></svg>
 			<div>Created by 9GAG with ❤️</div>
