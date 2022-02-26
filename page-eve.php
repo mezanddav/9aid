@@ -18,7 +18,12 @@
 get_header();
 
 ?>
-<div class="ctn max"></div>
+<div class="homp">
+    <div class="ctn max">
+        <h1 class="homp__title">Aggregating key information <div class="homp__title-sub">from Poland, Slovakia, Hungary and Romania</div></h1>
+        <p class="homp__desc">Consious and clear guide for each country.</p>
+    </div>
+</div>
 <?php
 
 get_footer();

@@ -29,12 +29,13 @@ do_action('eve_about');
 
 <header class="site-header header">
 	<div class="ctn max">
-		<div class="">
+		<div class="header__top">
 			<div class="brand">
 				<a class="brand-uri" href="<?php echo get_site_url(); ?>">
-					<svg width="100" height="100"><use xlink:href="#9aid-logo"></use></svg>
+					<svg width="60" height="60"><use xlink:href="#9aid-logo"></use></svg>
 				</a>
 			</div>
+			<div></div>
 		</div>
 		<!-- <nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><span></span><span></span><span></span></button>
